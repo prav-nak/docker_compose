@@ -9,7 +9,7 @@ This is based on the following awesome post
 ### introduction
 A suggested best practise in modern web-app development is to have the
 independent services/components of the app run in their own separate containers. 
-These multiple container apps can be enabled using ```docker-compose```.
+We will use ```docker-compose``` to facilitate the orchestration of the two independant containers into one working app.
 Compose is a tool for defining and running multi-container docker applications. 
 Using a configuration file, these multiple services can be created and started 
 using a single command. 
